@@ -1,0 +1,47 @@
+/*Navigation-stylesheets-include-here*/
+.navbar-default {
+	background:rgba(248, 248, 248, 0);
+	border:rgba(248, 248, 248, 0);
+	padding:5px 5px;
+}
+a.navbar-brand img {
+	position:relative;
+	top:9px;
+}
+#menu {
+	position:absolute;
+}
+#menu .nav {
+	left: 25%;
+	position: relative;
+}
+#menu ul.nav li a {
+	font-size:15px;
+	color:#fff;
+}
+#menu .nav > li > a {
+	background:none;
+	color: #fff;
+}
+#menu ul.nav li a:hover, #menu ul.nav li a.active {
+	color:#e73131;
+	transition:all 0.4s;
+}
+#menu .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color:#e73131;
+	background:transparent;
+}
+a.navbar-brand {
+	padding:0px;
+	margin-top:-3px;
+}
+ul.nav li.active a:before {
+	opacity:1;
+}
+.on {
+	background:rgba(0, 0, 0, 0.8);
+	transition:all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}

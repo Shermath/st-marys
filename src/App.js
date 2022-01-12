@@ -25,7 +25,7 @@ function App() {
       <Navigation />
       <Slider />
       <Aboutus />
-      <AboutSec />
+      {/* <AboutSec /> */}
       <Ourservice />
       <Features />
       <Portfolio />
